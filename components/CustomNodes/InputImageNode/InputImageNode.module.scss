@@ -1,0 +1,19 @@
+@import "@styles/colors.global.scss";
+
+.container {
+  border-radius: 0.5rem;
+  background-color: $green;
+  color: #fff;
+  padding: 1.5rem 2rem;
+
+  .handle {
+    background-color: $white;
+    height: 0.75rem;
+    width: 0.75rem;
+    border: 1px solid $green;
+  }
+
+  .label {
+    font-weight: 500;
+  }
+}

@@ -1,0 +1,21 @@
+@import "@styles/colors.global.scss";
+
+.container {
+  border-radius: 0.5rem;
+  background-color: $yellow;
+  color: #fff;
+  padding: 1.25rem;
+  width: 12rem;
+
+  .handle {
+    background-color: $white;
+    height: 0.75rem;
+    width: 0.75rem;
+    border: 1px solid $yellow;
+  }
+
+  .label {
+    text-align: center;
+    padding-bottom: 0.5rem;
+  }
+}

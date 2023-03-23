@@ -1,0 +1,54 @@
+@import "@styles/colors.global.scss";
+
+.navbarContainer {
+  display: flex;
+  justify-content: space-between;
+  color: $white;
+  background-color: $green;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99999;
+  .navbarLeft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .navbarIcon {
+      height: 2.75rem;
+      width: 2.75rem;
+      margin-left: 0.75rem;
+      padding: 0.25rem;
+    }
+  }
+  .navbarRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+    .navbarItem {
+      padding: 2rem 1.5rem;
+      transition: all 0.35s;
+      font-weight: 500;
+      &:hover {
+        color: $green;
+        background-color: $white;
+      }
+    }
+  }
+
+  .navbarCenter {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+    // margin-left: 5rem;
+    font-family: "Pacifico", cursive;
+    font-size: 1.75rem;
+    font-weight: 400;
+    left: 50%;
+    margin-top: 0.33rem;
+    transform: translate(-50%);
+  }
+}
